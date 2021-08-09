@@ -1,0 +1,306 @@
+/*common start*/
+body{
+	font-family: 'Georama', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+/*common end*/
+
+/*header start*/
+header{
+	border-top: 5px #76c38f solid;
+     background-color: #444444;
+  /*padding: 20px 0;*/
+}
+
+.c_nav{
+
+}
+
+.logo h1{
+	font-size: 30px !important;
+	color: white !important;
+	margin-bottom: 0;
+}
+.logo p{
+	font-size: 12px !important;
+	color: #979797 !important;
+	margin-bottom: 0;
+}
+.menu ul li a{
+	font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    padding: 0 12px !important;
+}
+.menu ul li:last-child a {
+	padding-right: 0 !important;
+}
+.menu ul li a:hover {
+	color: #76c38f !important;
+}
+/*header end*/
+
+
+/*slider start*/
+.slider{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #444444;
+}
+
+.s_text{
+	
+	padding: 50px;
+}
+
+.s_text h1{
+	
+}
+
+.s_text p{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.btn_r{
+	width: 180px;
+	height: 40px;
+	background-color: #A7A7A7;
+	font-family: 'Georama', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	border-radius: 10px;
+	
+}
+
+.btn_r:hover{
+	background-color: #76C38F;
+}
+
+.btn_r:focus{
+	box-shadow: none;
+}
+
+.s_img{
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+	background-image: url('../images/boy.jpg');
+   	background-size: cover;
+  	border: 25px solid #6b6b6b;
+}
+
+
+.c_next, .c_previous {
+   
+    width: 1% !important;
+    
+}
+
+/*slider end*/
+
+
+/*service start*/
+.service{
+	background-color: #ACACAC;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.service_item{
+   background-color: white;
+   color: #333333;
+   margin: 0 40px;
+   transition: .3s;
+}
+
+
+.service_item img{}
+
+.service_item h2{
+	/*margin-top: 5px;
+	margin-bottom: 10px;*/
+	padding: 0 7px;
+	font-size: 19px;
+
+}
+
+.service_item p{
+	font-size: 14px;
+	/*padding: 0px;*/
+	/*line-height: 1px;*/
+
+}
+
+.service_item:hover{
+   background-color: #76C38F;
+   transform:scale(1.03);
+}
+/*service end*/
+
+
+
+
+
+/* work start */
+
+.work{
+	background-color: #ACACAC;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.box1{
+	/*width:260px;*/
+	height: 60px;
+	background-color: #444444;
+	border-radius: 10px;
+
+}
+
+.box1 h1{
+	margin-top: 16px;
+	font-family: 'Georama', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+
+}
+
+.box2{
+	margin-top: 25px;
+	height: 5px;
+	background-color: #444444;
+}
+
+
+.w_item{
+ margin: 0 45px;
+ margin-top: 50px;
+ /*margin-left: 80px;*/
+}
+
+.w_item img{
+ border: 5px solid white;
+}
+
+.w_item p{
+ color: #333333;
+ font-size: 20px;
+}
+
+.w_item img:hover{
+
+ border: 5px solid #76C38F;
+
+}
+
+/*work end */
+
+/*contact start*/
+.contact{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #444444;
+}
+
+.c_item{
+
+}
+
+.c_item h2{
+	margin-bottom: 35px;
+   font-size : 22px;
+   color:white;
+}
+
+.c_item p{
+   font-size : 16px;
+   color: #979797;
+   margin-bottom: 2px;
+}
+
+.c_item p a {
+	color: #76C38F;
+    text-decoration: none;
+    
+}
+
+.green{
+	color: #76C38F;
+	font-size : 18px;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.c_input1{
+	
+	height: 40px;
+	padding: 10px 20px ;
+	border: 1px solid 20px;
+	border-radius: 5px;
+	font-family: 'Georama', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+
+.c_input2{
+	
+	height: 50px;
+	padding: 10px 20px ;
+	border: 1px solid 20px;
+	border-radius: 5px;
+	font-family: 'Georama', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+
+
+.c_input1:focus {
+    color: #898989;
+    background-color: #fff;
+    border: 1px solid 20px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.c_input2:focus {
+    color: #898989;
+    background-color: #fff;
+    border: 1px solid 20px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn_submit{
+	width: 80px;
+	height: 40px;
+	background-color: #A7A7A7;
+	font-family: 'Georama', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 10px;
+}
+
+.btn_submit:hover{
+	background-color: #76C38F;
+}
+
+.btn_submit:focus{
+	box-shadow: none;
+}
+/*contact end*/
+
+/*footer start*/
+footer{
+	border-top: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #444444;
+}
+/*footer end*/

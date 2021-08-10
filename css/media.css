@@ -1,17 +1,378 @@
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {  
 
+	/*header start*/
+	.menu ul li a {
+	font-size: 16px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+	}
+	/*header end*/
+
+	/*slider start*/
+	.slider{
+	padding-top: 20px;
+	padding-bottom: 20px;
+    }
+
+    .s_text{
+		padding: 0 20px;
+	}
+
+	.s_text h1{
+		font-size: 22px;
+	}
+
+	.s_text p{
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+    /*slider end*/
+
+
+    /*service start*/
+	.service{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.service_item{
+	   margin: 12px 12px;
+	}
+
+	.service_item p{
+		padding-bottom: 0;
+	}
+
+	
+	/*service end*/
+
+
+	/*work start*/
+	.work{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+	.box1 h1{
+	margin-top: 7px;
+	}
+
+	.w_item{
+	 margin: 0 0px;
+	 margin-top: 15px;
+	}
+
+	.w_item p {
+    font-size: 18px;
+	}
+
+	/*work end*/
+
+
+	/*contact start*/
+	.contact{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+	
+
+	.c_item{
+		padding-top: 20px;
+	}
+
+	.c_item h2{
+	   margin-bottom: 15px;
+	   padding: 0 20px;
+	   font-size : 20px;
+	   
+	}
+
+	.c_item p{
+	   font-size : 16px;
+	   margin-bottom: 0px;
+	   padding: 0 20px;
+	}
+
+	.c_input1{
+	width: 50%;
+	height: 30px;
+	margin-left: 20px;
+	}
+
+	.c_input2{
+		
+		width: 50%;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+
+
+	.btn_submit{
+		width: 80px;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+	/*contact end*/
+
+	/*footer start*/
+	footer{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	p{
+		margin-bottom: 0px;
+	}
+	/*footer end*/
+
 }
 
  /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {  
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	/*header start*/
+	.menu ul li a {
+	font-size: 18px;
+    text-align: right;
+    padding: 10px 0 0 !important;
+	}
+	/*header end*/
+
+	/*slider start*/
+	.slider{
+	padding-top: 20px;
+	padding-bottom: 20px;
+    }
+
+    .s_text{
+		padding: 0 30px;
+	}
+
+    /*slider end*/
+
+    /*service start*/
+	.service{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.service_item{
+	   margin: 18px 18px;
+	}
+
+	/*service end*/
+
+
+	/*work start*/
+	.work{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+	.box1 h1{
+	margin-top: 7px;
+	}
+
+	.w_item{
+	 margin: 0 0px;
+	 margin-top: 15px;
+	}
+
+	.w_item p {
+    font-size: 18px;
+	}
+	/*work end*/
+
+
+		/*work start*/
+	.work{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+	.box1 h1{
+	margin-top: 7px;
+	}
+
+	.w_item{
+	 margin: 0 0px;
+	 margin-top: 25px;
+	}
+	/*work end*/
+
+	/*contact start*/
+	.contact{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+	
+
+	.c_item{
+		padding-top: 20px;
+	}
+
+	.c_item h2{
+	   margin-bottom: 15px;
+	   padding: 0 20px;
+	   font-size : 20px;
+	   
+	}
+
+	.c_item p{
+	   font-size : 16px;
+	   margin-bottom: 0px;
+	   padding: 0 20px;
+	}
+
+	.c_input1{
+	width: 50%;
+	height: 30px;
+	margin-left: 20px;
+	}
+
+	.c_input2{
+		
+		width: 50%;
+		height: 50px;
+		margin-left: 20px;
+	}
+
+
+
+	.btn_submit{
+		width: 80px;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+
+	/*contact end*/
+
+
+	/*footer start*/
+	footer{
+		border-top: 1px solid black;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	p{
+		margin-bottom: 0px;
+	}
+	/*footer end*/
+
 
 }
 
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {  
 
+	/*header start*/
+	.menu ul li a {
+    text-align: right;
+    padding: 10px 0 0 !important;
+	}
+	/*header end*/
+
+
+	/*slider start*/
+	.slider{
+	padding-top: 40px;
+	padding-bottom: 40px;
+    }
+
+    .s_img{
+	width: 300px;
+	height: 300px;	
+    }
+    /*slider end*/
+
+
+    /*service start*/
+	.service{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.service_item{
+	   margin: 0 18px;
+	}
+
+	.service_item p{
+		padding-bottom: 0px;
+	}
+	/*service end*/
+
+
+	/*work start*/
+	.work{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	}
+
+	.box1 h1{
+	margin-top: 7px;
+	}
+
+	.w_item{
+	 margin: 0 0px;
+	 margin-top: 25px;
+	}
+	/*work end*/
+
+	/*contact start*/
+	.contact{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	}
+	
+
+	.c_item{
+		padding-top: 20px;
+	}
+
+	.c_item h2{
+	   margin-bottom: 15px;
+	   font-size : 20px;
+	   padding: 0 20px;
+	   
+	}
+
+	.c_item p{
+	   font-size : 16px;
+	   margin-bottom: 0px;
+	   padding: 0 20px;
+	}
+
+	.c_input1{
+	width: 50%;
+	height: 40px;
+	margin-left: 20px;
+	}
+
+	.c_input2{
+		
+		width: 50%;
+		height: 50px;
+		margin-left: 20px;
+	}
+
+
+
+	.btn_submit{
+		width: 80px;
+		height: 40px;
+		margin-left: 20px;
+	}
+
+	/*contact end*/
 }
+
+
   
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {  
